@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
-const fs = require('fs');
-const inquirer = require('inquirer');
-const generateMarkdown = require(".generateMarkdown.js");
+const fs = require("fs");
+const inquirer = require("inquirer");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -11,7 +11,7 @@ const questions = [
         message: "What's your project's title?",
     },
     {
-        type: "editor",
+        type: "input",
         name: "description",
         message: "Describe your project.",
     },
@@ -21,7 +21,7 @@ const questions = [
         message: "What command should be used to install your app?",
     },
     {
-        type: "editor",
+        type: "input",
         name: "usage",
         message: "How do you run your application?"
     },
@@ -32,7 +32,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "test",
+        name: "tests",
         message: "What command should be used to run tests?",
         default: "npm run test",
     },
@@ -40,7 +40,7 @@ const questions = [
         type: "list",
         name: "license",
         message: "What license does your application use?",
-        choices: ["MIT", "Apache", "LGPLv3", "GPLv2", "none"]
+        choices: ["MIT","Community", "Apache", "LGPLv3", "GPLv2"]
     },
     {
         type: "input",
@@ -73,7 +73,7 @@ function init() {
     .prompt(questions)
     .then((data) => {
         const contentReady = generateMarkdown(data);
-    writeToFile("./generatedREADME/README.md", contentReady)
+    writeToFile("./README.md", contentReady)
     });
 
 }
