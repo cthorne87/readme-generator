@@ -1,7 +1,7 @@
 # README Generator
 
   ## Description
-This app will generate a professional looking README file.  
+This app will generate a professional looking README file  
 ---
 ## Table of Contents
 * [Installation](#installation)
@@ -16,7 +16,7 @@ This app will generate a professional looking README file.
 
 Run the following command to install:
 
-undefined  
+npm i  
 ---
 ### Usage
 
@@ -33,17 +33,23 @@ Contact me for details
 
 To run tests, run the following command:
 
-undefined  
+npm run test  
 ---
 ### Questions
 For questions or feedback:
-https://www.github.com/undefined
+
+https://www.github.com/cthorne87
+
 c.l.thorne@outlook.com
 ---
 ### License
-![MIT License](https://img.shields.io/badge/license-MIT-blue)
-Licensing information can be found here:
-![MIT](https://opensource.org/licenses/MIT)
+
+
+
+
+
+
+
 
 ---
   
