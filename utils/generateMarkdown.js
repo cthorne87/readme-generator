@@ -67,7 +67,6 @@ ${data.description}
 * [Usage](#usage)
 * [Contribution](#contribution)
 * [Tests](#tests)
-* [Credits](#credits)
 * [Questions](#questions)
 * [License](#license)
 ---

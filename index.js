@@ -44,11 +44,6 @@ const questions = [
     },
     {
         type: "input",
-        name: "credits",
-        message: "Who should get credit for this project?",
-    },
-    {
-        type: "input",
         name: "username",
         message: "What is your GitHub username?",
     },

@@ -1,7 +1,7 @@
 # README Generator
 
   ## Description
-This app will generate a professional looking README file  
+This app will generate a professional README file  
 ---
 ## Table of Contents
 * [Installation](#installation)
